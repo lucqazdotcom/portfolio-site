@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Gopher Chat",
+    "description": "This Go-based chat app integrates the OpenAI API for smart responses, enabling real-time communication with a client-server setup. It highlights Go’s concurrency and networking features while enhancing chats with AI-driven insights.",
+    "year": "2025",
+    "link": "https://github.com/SobczakL/gopher-chat",
+    "stack": "HTML, CSS, JavaScript, Golang, Open AI API"
+  },
+  {
+    "id": 2,
+    "title": "ASCII Generator",
+    "description": "This tool generates ASCII art from input images, allowing users to create text-based representations of their favorite visuals. It offers a simple interface for uploading images and receiving their ASCII versions.",
+    "year": "2024",
+    "link": "https://sobczakl.github.io/ASCII-gen/",
+    "stack": "HTML, CSS, JavaScript"
+  },
+  {
+    "id": 2,
+    "title": "Röra",
+    "description": "Röra is a user-friendly web app that provides quick access to nearby transit information for commuters. Built with a robust tech stack, it offers real-time updates through the Transit API, making travel planning seamless.",
+    "year": "2023",
+    "link": "https://rora.vercel.app/",
+    "stack": "React, Chakra UI, Node.js, Express.js, Knex.js, MySQL, Vercel, PlanetScale"
+  },
+  {
+    "id": 3,
+    "title": "Retail Calculator",
+    "description": "This C program serves as a comprehensive tool for retail businesses, helping users perform essential calculations related to sales and inventory metrics. Its user-friendly menu interface simplifies the process, making it accessible for retailers of all sizes.",
+    "year": "2024",
+    "link": "https://sobczakl.github.io/retail-calculator/",
+    "stack": "C"
+  },
+  {
+    "id": 4,
+    "title": "AI Onboarding",
+    "description": "AI Onboarding is a cutting-edge solution designed to enhance user engagement and streamline the onboarding process. Developed in collaboration with Shopify, it integrates interactive guides and chatbot assistance to improve user experience.",
+    "year": "2023",
+    "link": "https://sobczakl.github.io/Brainstation-Shopify",
+    "stack": "JavaScript, Shopify Polaris, NLP.js"
+  },
+  {
+    "id": 5,
+    "title": "Weather App",
+    "description": "This sophisticated web utility delivers precise weather updates and forecasts for locations around the world. Built with React and the OpenWeatherMap API, it ensures accurate information while offering a sleek, user-friendly interface.",
+    "year": "2023",
+    "link": "https://sobczakl.github.io/weather-app",
+    "stack": "JavaScript, React, OpenWeatherMap API, SCSS"
+  }
+]

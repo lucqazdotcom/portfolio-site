@@ -36,30 +36,30 @@
           <h2 id="work-title">Work</h2>
           <div class="project-list" id="projectList"></div>
           <template id="projectTemplate">
-            <div class="header">
-              <div class="header_scope">
-                <div class="header_scope-status"></div>
-                <div class="header_scope-counter">
-                  <p class="header_scope-counterIndex"></p>
+            <article class="project">
+              <div class="header">
+                <div class="header_scope">
+                  <div class="header_scope-status"></div>
+                  <div class="header_scope-counter">
+                    <p class="header_scope-counterIndex"></p>
+                  </div>
+                </div>
+                <h3 class="header_projectTitle"></h3>
+              </div>
+              <div class="content">
+                <p class="content_projectDescription"></p>
+              </div>
+              <div class="footer">
+                <div class="footer_details">
+                  <p class="footer_details-title">TECH:</p>
+                  <div class="footer_details-stackList"></div>
+                  <div class="footer_link">
+                    <div class="footer_link-symbol"></div>
+                    <a href="" class="footer_link-anchor">LINK -&gt;</a>
+                  </div>
                 </div>
               </div>
-              <p class="header_projectTitle"></p>
-            </div>
-            <div class="content">
-              <p class="content_projectDescription"></p>
-            </div>
-            <div class="footer">
-              <div class="footer_details">
-                <p class="footer_details-title">TECH:</p>
-                <div id="stackItem_list" class="footer_details-stackList"></div>
-                <div class="footer_link">
-                  <div class="footer_link-symbol"></div>
-                  <a href="" class="footer_link-anchor">
-                    <p class="footer_link-title">LINK:</p>
-                  </a>
-                </div>
-              </div>
-            </div>
+            </article>
           </template>
           <template id="techStackItem">
             <div class="stackItem">

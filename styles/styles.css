@@ -1,0 +1,21 @@
+.ascii-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.ascii-canvas {
+  display: none;
+}
+
+.ascii-output {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 0.3rem;
+  line-height: 1.2;
+  white-space: pre;
+}

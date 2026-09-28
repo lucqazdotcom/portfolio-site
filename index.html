@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lucas Sobczak, a full stack developer based in Toronto, Canada."
+    />
+    <title>Lucas Sobczak</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <h1>Lucas Sobczak</h1>
+    </header>
+
+    <main class="site-main">
+      <div class="ascii-container" aria-hidden="true">
+        <canvas class="ascii-canvas"></canvas>
+        <pre class="ascii-output"></pre>
+      </div>
+
+      <div class="section-list">
+        <section class="info-section" id="info" aria-labelledby="info-title">
+          <h2 id="info-title">Info</h2>
+          <div class="info-content">
+            <p>/ Self-taught Full Stack Developer</p>
+            <p>/ Toronto, Canada</p>
+            <p>/ Scroll for projects &darr;</p>
+          </div>
+        </section>
+
+        <section class="work-section" id="work" aria-labelledby="work-title">
+          <h2 id="work-title">Work</h2>
+          <div class="project-list" id="projectList"></div>
+          <template id="projectTemplate">
+            <article class="project">
+              <div class="header">
+                <div class="header_scope">
+                  <div class="header_scope-status"></div>
+                  <div class="header_scope-counter">
+                    <p class="header_scope-counterIndex"></p>
+                  </div>
+                </div>
+                <h3 class="header_projectTitle"></h3>
+              </div>
+              <div class="content">
+                <p class="content_projectDescription"></p>
+              </div>
+              <div class="footer">
+                <div class="footer_details">
+                  <p class="footer_details-title">TECH:</p>
+                  <div class="footer_details-stackList"></div>
+                  <div class="footer_link">
+                    <div class="footer_link-symbol"></div>
+                    <a href="" class="footer_link-anchor">LINK -&gt;</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </template>
+          <template id="techStackItem">
+            <div class="stackItem">
+              <p class="stackItem_name"></p>
+            </div>
+          </template>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <a href="mailto:lucassobczak3@gmail.com">lucassobczak3@gmail.com</a>
+      <nav aria-label="Social links">
+        <a href="https://github.com/SobczakL">GitHub</a>
+        <a href="https://x.com/lucqaz_">X</a>
+        <a href="https://www.twitch.tv/lucqaz_">Twitch</a>
+      </nav>
+    </footer>
+  </body>
+  <script type="module" src="./scripts/main.js"></script>
+</html>

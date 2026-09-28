@@ -1,7 +1,10 @@
 import { createProject } from "./projects.js";
+import { createAsciiVideo } from "./asciiGen.js";
 
 async function main() {
-  const data = await fetch("../data/project.json");
+  createAsciiVideo("./assets/video/life-video.mp4");
+
+  const data = await fetch("./data/project.json");
   const projects = await data.json();
   createProject(projects);
 }
